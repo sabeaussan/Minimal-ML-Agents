@@ -1,2 +1,12 @@
 results/
-ml-agents/mlagents/trainer/log/
+ml-agents/mlagents/trainers/log/
+ml-agents/mlagents/trainers/trainer/__pycache__/
+ml-agents/mlagents/trainers/torch_modules/components/reward_providers/__pycache__/
+ml-agents/mlagents/trainers/torch_modules/__pycache__/
+ml-agents/mlagents/trainers/sac/__pycache__/
+ml-agents/mlagents/trainers/ppo/__pycache__/
+ml-agents/mlagents/trainers/policy/__pycache__/
+ml-agents/mlagents/trainers/optimizer/__pycache__/
+ml-agents/mlagents/trainers/model_saver/__pycache__/
+ml-agents/mlagents/trainers/__pycache__/
+*.pyc
