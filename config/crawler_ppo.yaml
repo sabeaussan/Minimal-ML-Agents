@@ -12,11 +12,11 @@ behaviors:
       learning_rate_schedule: linear
     network_settings:
       normalize: true
-      hidden_units: 512
+      hidden_units: 400
       num_layers: 3
     module_settings:
       hidden_units : 225
-      task_obs_dim: 14
+      task_obs_dim: 11
       state_dim: 24
       latent_dim: 6
     reward_signals:
@@ -27,4 +27,4 @@ behaviors:
     max_steps: 10000000
     time_horizon: 1000
     summary_freq: 60000
-    checkpoint_interval : 50000
+    checkpoint_interval : 500000
